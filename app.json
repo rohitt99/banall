@@ -6,21 +6,21 @@
     "repository": "https://github.com/TMM-TEAM/banall",
     "stack": "container",
     "env": {
-        "BOT_TOKEN": {
+        "BOT_TOKEN": {6824943579:AAGGnvRKyxu9EudkqASpoq-uNfJ0RHJo2ik
             "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
             "required": true
         },
-        "OWNER": {
+        "OWNER": {6722550550
             "description": "ᴛʏᴘᴇ ʏᴏᴜʀ ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @ ʟɪᴋᴇ ʙɪᴋᴀsʜʜᴀʟᴅᴇʀ",
             "required": true,
             "value": ""
         },
-        "API_HASH": {
+        "API_HASH": {a23a5133bddbdab87df3df06ccf63a89
             "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
             "required": true,
             "value": ""
         },
-        "API_ID": {
+        "API_ID": {25830228
             "description": "ғɪʟʟ ᴀᴘɪ ɪᴅ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
             "required": true,
             "value": ""
