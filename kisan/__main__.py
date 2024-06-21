@@ -9,10 +9,10 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Telegram Bot Token, API_ID, and API_HASH from environment variables
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN")
-API_ID = os.getenv("API_ID", "YOUR_API_ID")
-API_HASH = os.getenv("API_HASH", "YOUR_API_HASH")
-OWNER_ID = int(os.getenv("OWNER_ID", "YOUR_OWNER_ID"))
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6824943579:AAGGnvRKyxu9EudkqASpoq-uNfJ0RHJo2ik")
+API_ID = os.getenv("API_ID", "25830228")
+API_HASH = os.getenv("API_HASH", "a23a5133bddbdab87df3df06ccf63a89")
+OWNER_ID = int(os.getenv("OWNER_ID", "6722550550"))
 
 # Pyrogram Client
 app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
