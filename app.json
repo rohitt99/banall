@@ -6,38 +6,39 @@
     "repository": "https://github.com/TMM-TEAM/banall",
     "stack": "container",
     "env": {
-        "BOT_TOKEN": {6824943579:AAGGnvRKyxu9EudkqASpoq-uNfJ0RHJo2ik
+        "BOT_TOKEN": {
             "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
-            "required": true
+            "required": true,
+            "value": "6824943579:AAGGnvRKyxu9EudkqASpoq-uNfJ0RHJo2ik"
         },
-        "OWNER": {6722550550
+        "OWNER": {
             "description": "ᴛʏᴘᴇ ʏᴏᴜʀ ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @ ʟɪᴋᴇ ʙɪᴋᴀsʜʜᴀʟᴅᴇʀ",
             "required": true,
-            "value": ""
+            "value": "6722550550"
         },
-        "API_HASH": {a23a5133bddbdab87df3df06ccf63a89
+        "API_HASH": {
             "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
             "required": true,
-            "value": ""
+            "value": "a23a5133bddbdab87df3df06ccf63a89"
         },
-        "API_ID": {25830228
+        "API_ID": {
             "description": "ғɪʟʟ ᴀᴘɪ ɪᴅ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
             "required": true,
-            "value": ""
+            "value": "25830228"
         }
     },
     "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "eco"
-          }
-      }
- }
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
